@@ -1,6 +1,6 @@
 var playlist = { TomPetty: "Free Fallin"};
 
-funciton updatePlaylist(playlist, key, value) {
-    playlist.key = "value";
+function updatePlaylist(object, key, value) {
+    object.key = "value";
     return object
 }
