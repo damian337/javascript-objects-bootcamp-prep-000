@@ -9,5 +9,3 @@ function removeFromPlaylist(playlist, artistName)  {
     delete playlist.artistName;
     return playlist
 }
-
-console.log(removeFromPlaylist({Kanye: "Gold"}, "Kanye"));
