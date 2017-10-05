@@ -1,3 +1,3 @@
-var meals = { breakfast: "oatmeal" }
+var meals = { breakfast: "oatmeal" };
 
 var meals = new Object();
