@@ -1,8 +1,8 @@
 var playlist = {};
 
-function updatePlaylist(object, key, value) {
-    object[key] = value
-    return object
+function updatePlaylist(playlist, artistName, songTitle) {
+    playlist[artistName] = songTitle
+    return playlist
 }
 
 function removeFromPlaylist(playlist, artistName)  {
