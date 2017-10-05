@@ -6,8 +6,7 @@ function updatePlaylist(object, key, value) {
 }
 
 function removeFromPlaylist(playlist, artistName)  {
-    delete playlist.artistName;
-    return playlist
+    return delete playlist.artistName;
 }
 
 console.log(removeFromPlaylist({Kanye: "Gold"}, "Kanye"));
