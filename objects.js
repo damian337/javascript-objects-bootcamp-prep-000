@@ -1,4 +1,4 @@
-var playlist = { TomPetty: "Free Fallin"};
+var playlist = {};
 
 function updatePlaylist(object, key, value) {
     object[key] = value
